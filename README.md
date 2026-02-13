@@ -1,11 +1,34 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Panasa Global Export - Web App
 
-  <h1>Built with AI Studio</h2>
+## Cara Menambahkan Katalog Produk
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Website ini sudah dikonfigurasi untuk menampilkan katalog produk dalam format PDF. Agar tombol "Download Catalog" berfungsi, ikuti langkah berikut:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. Siapkan file PDF katalog Anda.
+2. Ubah nama file tersebut menjadi **`Panasa_Commodities_Catalog.pdf`**.
+3. Masukkan file tersebut ke dalam folder **`public/`** di root project ini.
 
-</div>
+Struktur folder akan terlihat seperti ini:
+```
+/project-root
+  /public
+    Panasa_Commodities_Catalog.pdf  <-- Masukkan di sini
+    vite.svg
+  /src
+  index.html
+  package.json
+  ...
+```
+
+## Cara Menjalankan Project
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Jalankan server development:
+   ```bash
+   npm run dev
+   ```

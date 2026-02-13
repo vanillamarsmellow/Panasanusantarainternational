@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Panasa | Premium Indonesian Commodities Export</title>
+    <meta name="title" content="Panasa | Premium Indonesian Commodities Export">
+    <meta name="description" content="Leading exporter of premium Indonesian agricultural products: Cocoa Beans, Arabica Coffee, White Copra, and Coconut Charcoal Briquettes. Connecting Sulawesi farmers to the global market.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- JetBrains Mono for Tabular Look and Unbounded for Creative Headers -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Syne:wght@700;800&family=Unbounded:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['JetBrains Mono', 'monospace'],
+              display: ['Syne', 'sans-serif'],
+              creative: ['Unbounded', 'sans-serif'],
+            },
+            colors: {
+              'nurture-dark': '#022c22',
+              'nurture-light': '#ecfdf5',
+              'nurture-grey': '#d1fae5',
+              'nurture-medium': '#064e3b',
+              'nurture-accent': '#84cc16',
+              'nurture-green': '#10b981',
+              'nurture-text': '#064e3b',
+            },
+            animation: {
+              'marquee': 'marquee 30s linear infinite',
+              'marquee-reverse': 'marquee-reverse 30s linear infinite',
+              'spin-slow': 'spin 12s linear infinite',
+              'slide-cycle': 'slide-cycle 0.3s cubic-bezier(0.25, 1, 0.5, 1) forwards',
+              'slide-up': 'slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-50%)' },
+              },
+              'marquee-reverse': {
+                '0%': { transform: 'translateX(-50%)' },
+                '100%': { transform: 'translateX(0%)' },
+              },
+              'slide-cycle': {
+                '0%': { transform: 'translateY(110%)', opacity: '0' },
+                '20%': { transform: 'translateY(0%)', opacity: '1' },
+                '80%': { transform: 'translateY(0%)', opacity: '1' },
+                '100%': { transform: 'translateY(-110%)', opacity: '0' },
+              },
+              'slide-up': {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      
+      body {
+        background-color: #ecfdf5;
+        color: #022c22;
+        transition: background-color 0.5s ease, color 0.5s ease;
+        font-variant-numeric: tabular-nums;
+      }
+      
+      .dark body {
+        background-color: #022c22;
+        color: #ecfdf5;
+      }
+
+      ::selection {
+        background-color: #84cc16;
+        color: #022c22;
+      }
+
+      .text-stroke {
+        -webkit-text-stroke: 2px currentColor;
+        color: transparent;
+      }
+      
+      @media (hover: hover) and (pointer: fine) {
+        * { cursor: none !important; }
+      }
+
+      .animate-slide-up {
+        animation: slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0",
+    "three": "https://esm.sh/three@^0.182.0"
+  }
+}
+</script>
+</head>
+  <body class="antialiased overflow-x-hidden transition-colors duration-500">
+    <div id="root"></div>
+  </body>
+</html>

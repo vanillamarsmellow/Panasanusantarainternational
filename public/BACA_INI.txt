@@ -1,0 +1,8 @@
+
+TEMPAT MENYIMPAN FILE KATALOG
+
+1. Siapkan file katalog PDF anda.
+2. Ubah nama file menjadi: Panasa_Commodities_Catalog.pdf
+3. Masukkan file tersebut ke dalam folder 'public' ini.
+
+Website akan otomatis membaca file dari folder ini saat tombol download diklik.
